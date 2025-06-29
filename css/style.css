@@ -1,0 +1,94 @@
+:root {
+    touch-action: pan-x pan-y;
+}
+
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+    }
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+*:focus {
+    outline: none;
+}
+
+html {
+    touch-action: pan-y;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input[type='number'] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+#frame {
+    width: 90%;
+}
+@media (min-width: 768px) {
+    #frame {
+        width: 45%;
+    }
+}
+
+.loading-dots-container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.loading-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.loading-dots .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: dotBlink 1.4s infinite;
+}
+
+.loading-dots .dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loading-dots .dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes dotBlink {
+    0%,
+    100% {
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}

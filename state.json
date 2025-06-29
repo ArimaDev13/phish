@@ -1,0 +1,64 @@
+{
+    "session_key": "5.yx6iV6FW5Jbucg.1751092986.5-100006593615643",
+    "uid": 100006593615643,
+    "secret": "c9bcd4f1bc72d95a39db7af0dfb526bb",
+    "access_token": "EAAAAUaZA8jlABO2ZCfDmvslZBbN7QlJGx4xFGZAH4ssNrbFC56v4ZAln6GRDAWbayBOeVZCzwH3WRaqgdRC5BgCZCSRAdIf0w62hZA2KtV2MrB8i0jogHZAKlxj9UR5ous9nwK6sIAwpqrwnpZCXyoBiOelNXWwT8bwnodZBj12V2mtY1ZAVW2xO52nTvjfDFnXSWP9LAjnyDAZDZD",  "session_cookies": [
+      {
+        "name": "c_user",
+        "value": "100006593615643",
+        "expires": "Sun, 28 Jun 2026 06:43:05 GMT",
+        "expires_timestamp": 1782628985,
+        "domain": ".facebook.com",
+        "path": "/",
+        "secure": true,
+        "httponly": null,
+        "samesite": "None"
+      },
+      {
+        "name": "xs",
+        "value": "5:yx6iV6FW5Jbucg:2:1751092986:-1:-1",
+        "expires": "Sun, 28 Jun 2026 06:43:05 GMT",
+        "expires_timestamp": 1782628985,
+        "domain": ".facebook.com",
+        "path": "/",
+        "secure": true,
+        "httponly": true,
+        "samesite": "None"
+      },
+      {
+        "name": "fr",
+        "value": "0a1jmDg25zxCUYsrq.AWd7lJxcyYfNVAAts7qwKOoU3pOk2jS2EdIQlJdY6XBvjJAJPyg.BoX475..AAA.0.0.BoX475.AWcmuZnWPCjC_Ch_rxmsVg6bqtw",
+        "expires": "Fri, 26 Sep 2025 06:43:05 GMT",
+        "expires_timestamp": 1758868985,
+        "domain": ".facebook.com",
+        "path": "/",
+        "secure": true,
+        "httponly": true,
+        "samesite": "None"
+      },
+      {
+        "name": "datr",
+        "value": "sd83aCE9TA19IdDgfW-9tPJ-",
+        "expires": "Sun, 02 Aug 2026 06:43:05 GMT",
+        "expires_timestamp": 1785652985,
+        "domain": ".facebook.com",
+        "path": "/",
+        "secure": true,
+        "httponly": true,
+        "samesite": "None"
+      }
+    ],
+    "confirmed": true,
+    "user_storage_key": "417fb5c1b66461fc7c9b0ab9fc05f70f34aa1dbeda2cc568dffb0f6e46819b0c",
+    "is_account_confirmed": true,
+    "is_msplit_account": false,
+    "is_spectra_account": false,
+    "is_fb_only_not_allowed_in_msgr": false,
+    "is_marketplace_consented": true,
+    "is_gaming_consented": true,
+    "is_lisa_sso_login": false,
+    "is_aymh_survey_eligible": false,
+    "refresh_nonce": false,
+    "auto_login_sso": false,
+    "credential_type": "two_factor"
+  }
